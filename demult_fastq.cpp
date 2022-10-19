@@ -158,13 +158,13 @@ int main (int argc, char* argv[])
   string path_to_reads=argv[1];
   string path_output=argv[2];
 
-  string R1_file=path_to_reads+"L1_1.fq.gz";
-  string R2_file=path_to_reads+"L1_4.fq.gz";
-  string I1_file=path_to_reads+"L1_2.fq.gz";
-  string I2_file=path_to_reads+"L1_3.fq.gz";
+  string R1_file=path_to_reads+"_CKDL220019105-1A_H7MKNDSX5_L1_1.fq.gz";
+  string R2_file=path_to_reads+"_CKDL220019105-1A_H7MKNDSX5_L1_4.fq.gz";
+  string I1_file=path_to_reads+"_CKDL220019105-1A_H7MKNDSX5_L1_2.fq.gz";
+  string I2_file=path_to_reads+"_CKDL220019105-1A_H7MKNDSX5_L1_3_Dseg_append.fq.gz";
 
-  string R1_outfile=path_output+"_L1_1.fq.gz";
-  string R2_outfile=path_output+"_L1_4.fq.gz";
+  string R1_outfile=path_output+"_R1_demult.fq.gz";
+  string R2_outfile=path_output+"_R2_demult.fq.gz";
 
 	string clearBC_logfile=path_output+"_clearBC.log";
 	string unclearBC_logfile=path_output+"_unclearBC.log";
