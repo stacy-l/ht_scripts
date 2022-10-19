@@ -1,4 +1,2 @@
 #bin/bash
-GZSTREAMDIR = /usr/local/include/gzstream
-GZSTREAM_CPPFLAGS = -I$(GZSTREAMDIR)
-g++ -O3 -o demult_fastq.o demult_fastq.cpp -lgzstream -I$(GZSTREAM_CPPFLAGS) -I/usr/include -std=gnu++11 -lz -Wall
+g++ -O3 -o demult_fastq.o demult_fastq.cpp -lgzstream -L /global/scratch/users/stacy-l/miniconda3/envs/bwa_samtools/bin/gzstream -I /global/scratch/users/stacy-l/miniconda3/envs/bwa_samtools/bin/include -std=gnu++11 -lz -Wall

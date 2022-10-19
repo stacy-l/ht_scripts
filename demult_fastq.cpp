@@ -158,13 +158,13 @@ int main (int argc, char* argv[])
   string path_to_reads=argv[1];
   string path_output=argv[2];
 
-  string R1_file=path_to_reads+"R1_001.fastq.gz";
-  string R2_file=path_to_reads+"R2_001.fastq.gz";
-  string I1_file=path_to_reads+"I1_001.fastq.gz";
-  string I2_file=path_to_reads+"I2_001.fastq.gz";
+  string R1_file=path_to_reads+"L1_1.fq.gz";
+  string R2_file=path_to_reads+"L1_4.fq.gz";
+  string I1_file=path_to_reads+"L1_2.fq.gz";
+  string I2_file=path_to_reads+"L1_3.fq.gz";
 
-  string R1_outfile=path_output+"_R1_001.fastq.gz";
-  string R2_outfile=path_output+"_R2_001.fastq.gz";
+  string R1_outfile=path_output+"_L1_1.fq.gz";
+  string R2_outfile=path_output+"_L1_4.fq.gz";
 
 	string clearBC_logfile=path_output+"_clearBC.log";
 	string unclearBC_logfile=path_output+"_unclearBC.log";
